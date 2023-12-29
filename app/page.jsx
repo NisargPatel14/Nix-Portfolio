@@ -62,7 +62,7 @@ const page = () => {
           </Link>
         </div>
       </div>
-      <div></div>
+      <div>Test changes</div>
     </main>
   );
 };
