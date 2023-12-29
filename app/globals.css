@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --backgroud-color: #090909;
+  --main-text-color: #fff;
+}
+
+body {
+  background-color: var(--backgroud-color);
+  color: var(--main-text-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.nav{
+  padding: 3rem;
+  display: flex ;
+  justify-content: space-between;
+}
+
+.nav-text{
+  font-family: var(--font-syne);
+  font-size: 3rem;
+  font-weight: 750;
+  background: repeating-linear-gradient(70deg, #b103c4, #cc2b5e, #ff6b6b, #fda085, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mail-link{
+  font-family: var(--font-inter);
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.main-nav {
+  font-family: var(--font-inter);
+  font-weight: 300;
+  border: 1px solid #fff;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5rem;
+}
+
+.nav-ele {
+  text-decoration: none;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.elements {
+  padding: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 6rem;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.highlighted {
+  border-radius: 1rem;
+  /* transition: all 0.3s ease-in-out; */
+  background-color: #ffffff66;
+}
